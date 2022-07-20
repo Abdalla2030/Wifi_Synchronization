@@ -7,6 +7,9 @@ The Wi-Fi number of connected devices is initially empty. -If a client is logged
 
 The Project contain: 
 1-Router Class: that contains a list of connection and methods to occupy a connection and release a connection. 
+
 2-Semaphore Class. 
+
 3-Device Class: represent different devices (threads) that can be connected to the router; each device has its own name (i.e. C1) and type (i.e. mobile, pc, tablet...) and it may perform three activities: connect, perform online activity and disconnect/logout. 
+
 4-Network Class: this class contains the main method in which the user is asked for two inputs: a-N: max number of connections a router can accept b-TC: total number of devices that wishes to connect). c-TC lines that contain: name of each device, and its type.
